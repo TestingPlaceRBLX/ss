@@ -1,5 +1,4 @@
-function(state)
-    if state then
+    if Value then
         local InfiniteJumpEnabled = true
         game:GetService("UserInputService").JumpRequest:connect(function()
             if InfiniteJumpEnabled then
